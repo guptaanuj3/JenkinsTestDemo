@@ -14,8 +14,8 @@ namespace JenkinsTestdemo.Controllers
         {
             List<Student> stud = new List<Student>
                  {
-                    new Student { RollNo=1, StudFirstName="Honey", StudLastName="Gupta" },
-                    new Student { RollNo=2, StudFirstName="Siddu", StudLastName="Lad" }
+                    new Student { RollNo=1, StudFirstName="Anuj", StudLastName="Gupta" },
+                    new Student { RollNo=2, StudFirstName="Priyanka", StudLastName="Lad" }
                  };
 
             ViewData.Model = stud;
